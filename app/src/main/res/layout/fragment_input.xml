@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    tools:context="com.example.reza66.tamin6.InformationInputActivity">
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/task_title_lable" />
+
+    <EditText
+        android:id="@+id/task_title"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:hint="@string/task_title_hint"/>
+
+
+    <TextView
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/task_description_lable"
+        />
+
+    <EditText
+        android:id="@+id/task_description"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:hint="@string/task_description_hint" />
+
+
+    <Button
+        android:id="@+id/task_date"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:text="@string/task_Date_lable" />
+    <Button
+        android:id="@+id/task_time"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1"
+        android:text="@string/task_time_lable"
+        />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0sp"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_green_light"
+        android:layout_weight="1"
+        android:text="@string/save_button_text" />
+
+</LinearLayout>
